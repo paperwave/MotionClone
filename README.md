@@ -9,12 +9,12 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 </br>
 [Pengyang Ling*](https://github.com/LPengYang/),
 [Jiazi Bu*](https://github.com/Bujiazi/),
-[Pan Zhang](https://panzhang0212.github.io/),
+[Pan Zhang<sup>†</sup>](https://panzhang0212.github.io/),
 [Xiaoyi Dong](https://scholar.google.com/citations?user=FscToE0AAAAJ&hl=en/),
 [Yuhang Zang](https://yuhangzang.github.io/),
 [Tong Wu](https://wutong16.github.io/),
 [Huaian Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=D6ol9XkAAAAJ),
-[Jiaqi Wang<sup>†</sup>](https://myownskyw7.github.io/),
+[Jiaqi Wang](https://myownskyw7.github.io/),
 [Yi Jin<sup>†</sup>](https://scholar.google.ca/citations?hl=en&user=mAJ1dCYAAAAJ)
 (*Equally Contribution)(<sup>†</sup>Corresponding Author)
 
