@@ -10,9 +10,9 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 [Yuhang Zang](https://yuhangzang.github.io/),
 [Tong Wu](https://wutong16.github.io/),
 [Huaian Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=D6ol9XkAAAAJ),
-[Jiaqi Wang](https://myownskyw7.github.io/),
-[Yi Jin](https://scholar.google.ca/citations?hl=en&user=mAJ1dCYAAAAJ)
-(*Equally Contribution)(*Corresponding Author)
+[Jiaqi Wang<sup>†</sup>](https://myownskyw7.github.io/),
+[Yi Jin<sup>†</sup>](https://scholar.google.ca/citations?hl=en&user=mAJ1dCYAAAAJ)
+(*Equally Contribution)(<sup>†</sup>Corresponding Author)
 
 <!-- [Arxiv Report](https://arxiv.org/abs/2307.04725) | [Project Page](https://animatediff.github.io/) -->
 [![arXiv](https://img.shields.io/badge/arXiv-2307.04725-b31b1b.svg)](https://arxiv.org/abs/2307.04725)
@@ -20,4 +20,7 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/guoyww/AnimateDiff)
 
+## 🏗️ Todo
+- [ ] Release Gradio demo
+- [ ] Release the MotionClone code
 
