@@ -20,6 +20,8 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/guoyww/AnimateDiff)
 
+![teaser](__assets__/teaser.gif)
+
 ## 🏗️ Todo
 - [ ] Release Gradio demo
 - [ ] Release the MotionClone code
