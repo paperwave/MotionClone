@@ -33,10 +33,6 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 
 As illustrated in the framework above, MotionClone comprises two core components in its guidance stage: **Primary Temporal-Attention Guidance** and **Location-Aware Semantic Guidance**, which operate synergistically to provide comprehensive motion and semantic guidance for controllable video generation.
 
-## 🏗️ Todo
-- [ ] Release Gradio demo
-- [ ] Release the MotionClone code
-
 ## 🔧 Preparations
 ### Setup repository and conda environment
 
@@ -47,6 +43,35 @@ cd MotionClone
 conda env create -f environment.yaml
 conda activate motionclone
 ```
+
+### Download Stable Diffusion V1.5
+
+```
+git lfs install
+git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
+```
+
+### Prepare Community Models
+
+Manually download the community `.safetensors` models from [RealisticVision V5.1](https://civitai.com/models/4201?modelVersionId=130072) and save them to `models/DreamBooth_LoRA`. 
+
+### Prepare AnimateDiff Motion Modules
+
+Manually download the AnimateDiff modules from [AnimateDiff](https://github.com/guoyww/AnimateDiff), we recommend [`v3_adapter_sd_v15.ckpt`](https://huggingface.co/guoyww/animatediff/blob/main/v3_sd15_adapter.ckpt) and [`v3_sd15_mm.ckpt.ckpt`](https://huggingface.co/guoyww/animatediff/blob/main/v3_sd15_sparsectrl_scribble.ckpt). Save the modules to `models/Motion_Module`.
+
+## 🎈 Quick Start
+
+### Perform DDIM Inversion
+```
+python invert.py
+```
+### Perform Motion Cloning
+```
+python sample.py
+```
+## 🏗️ Todo
+- [ ] Release Gradio demo
+- [ ] Release the MotionClone code
 
 ## 📎 Citation 
 
