@@ -71,7 +71,7 @@ python sample.py --config configs/example.yaml
 ```
 ## 🏗️ Todo
 - [ ] Release Gradio demo
-- [ ] Release the MotionClone code
+- [x] Release the MotionClone code
 - [x] Release paper
 
 ## 📎 Citation 
