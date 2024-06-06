@@ -63,15 +63,16 @@ Manually download the AnimateDiff modules from [AnimateDiff](https://github.com/
 
 ### Perform DDIM Inversion
 ```
-python invert.py
+python invert.py --config configs/example.yaml
 ```
 ### Perform Motion Cloning
 ```
-python sample.py
+python sample.py --config configs/example.yaml
 ```
 ## 🏗️ Todo
 - [ ] Release Gradio demo
 - [ ] Release the MotionClone code
+- [x] Release paper
 
 ## 📎 Citation 
 
