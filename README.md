@@ -96,3 +96,4 @@ Feel free to contact us if you would like remove them.
 ## 💞 Acknowledgements
 The code is built upon the below repositories, we thank all the contributors for open-sourcing.
 * [AnimateDiff](https://github.com/guoyww/AnimateDiff)
+* [FreeControl](https://github.com/genforce/freecontrol)
