@@ -80,7 +80,7 @@ python sample.py --config configs/example.yaml
 
 ## 📎 Citation 
 
-If you find this work helpful, please cite the following paper: 
+If you find this work helpful, please cite the following paper:
 
 ```
 @misc{ling2024motionclone,
