@@ -16,13 +16,13 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 [Huaian Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=D6ol9XkAAAAJ),
 [Jiaqi Wang](https://myownskyw7.github.io/),
 [Yi Jin<sup>†</sup>](https://scholar.google.ca/citations?hl=en&user=mAJ1dCYAAAAJ)
-(*Equally Contribution)(<sup>†</sup>Corresponding Author)
+(*Equal Contribution)(<sup>†</sup>Corresponding Author)
 
 <!-- [Arxiv Report](https://arxiv.org/abs/2307.04725) | [Project Page](https://animatediff.github.io/) -->
-[![arXiv](https://img.shields.io/badge/arXiv-2307.04725-b31b1b.svg)](https://bujiazi.github.io/motionclone.github.io/)
+[![arXiv](https://img.shields.io/badge/arXiv-2406.05338-b31b1b.svg)](https://arxiv.org/abs/2406.05338)
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://bujiazi.github.io/motionclone.github.io/)
-[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://bujiazi.github.io/motionclone.github.io/)
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://bujiazi.github.io/motionclone.github.io/)
+<!-- [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://bujiazi.github.io/motionclone.github.io/) -->
+<!-- [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://bujiazi.github.io/motionclone.github.io/) -->
 
 ![teaser](__assets__/teaser.gif)
 
@@ -71,17 +71,19 @@ python sample.py --config configs/example.yaml
 ```
 ## 🏗️ Todo
 - [ ] Release Gradio demo
-- [x] Release the MotionClone code
+- [ ] Release the MotionClone code
 - [x] Release paper
 
 ## 📎 Citation 
 
 ```
-@article{li2023video,
-  title={A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing},
-  author={Li, Maomao and Li, Yu and Yang, Tianyu and Liu, Yunfei and Yue, Dongxu and Lin, Zhihui and Xu, Dong},
-  journal={arXiv preprint arXiv:2312.05856},
-  year={2023}
+@misc{ling2024motionclone,
+      title={MotionClone: Training-Free Motion Cloning for Controllable Video Generation}, 
+      author={Pengyang Ling and Jiazi Bu and Pan Zhang and Xiaoyi Dong and Yuhang Zang and Tong Wu and Huaian Chen and Jiaqi Wang and Yi Jin},
+      year={2024},
+      eprint={2406.05338},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
