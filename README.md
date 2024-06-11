@@ -32,7 +32,7 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 - [x] Release paper
 
 ## 📚 Gallery
-We show some results in the [Project Page](https://bujiazi.github.io/motionclone.github.io/).
+We show more results in the [Project Page](https://bujiazi.github.io/motionclone.github.io/).
 
 ## 🚀 Method Overview
 <div align="center">
