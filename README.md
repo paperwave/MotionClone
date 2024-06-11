@@ -1,5 +1,5 @@
 # MotionClone
-This repository is the official implementation of [MotionClone](https://arxiv.org/abs/2307.04725). It is a training-free framework that enables motion cloning from a reference video to control text-to-video generation.
+This repository is the official implementation of [MotionClone](https://arxiv.org/abs/2406.05338). It is a training-free framework that enables motion cloning from a reference video to control text-to-video generation.
 <details><summary>Click for the full abstract of MotionClone</summary>
 
 > We propose MotionClone, a training-free framework that enables motion cloning from a reference video to control text-to-video generation. We employ temporal attention in video inversion to represent the motions in the reference video and introduce primary temporal-attention guidance to mitigate the influence of noisy or very subtle motions within the attention weights. Furthermore, to assist the generation model in synthesizing reasonable spatial relationships and enhance its prompt-following capability, we propose a location-aware semantic guidance mechanism that leverages the coarse location of the foreground from the reference video and original classifier-free guidance features to guide the video generation.
@@ -71,7 +71,7 @@ python sample.py --config configs/example.yaml
 ```
 ## 🏗️ Todo
 - [ ] Release Gradio demo
-- [ ] Release the MotionClone code
+- [ ] Release the MotionClone code (We plan to release the code in about **two weeks**!)
 - [x] Release paper
 
 ## 📎 Citation 
