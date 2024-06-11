@@ -26,6 +26,14 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 
 ![teaser](__assets__/teaser.gif)
 
+## 🏗️ Todo
+- [ ] Release Gradio demo
+- [ ] Release the MotionClone code (We plan to release the code in about **two weeks**!)
+- [x] Release paper
+
+## 📚 Gallery
+We show some results in the [Project Page](https://bujiazi.github.io/motionclone.github.io/).
+
 ## 🚀 Method Overview
 <div align="center">
     <img src='__assets__/framework.jpg'/>
@@ -69,12 +77,10 @@ python invert.py --config configs/example.yaml
 ```
 python sample.py --config configs/example.yaml
 ```
-## 🏗️ Todo
-- [ ] Release Gradio demo
-- [ ] Release the MotionClone code (We plan to release the code in about **two weeks**!)
-- [x] Release paper
 
 ## 📎 Citation 
+
+If you find this work helpful, please cite the following paper: 
 
 ```
 @misc{ling2024motionclone,
