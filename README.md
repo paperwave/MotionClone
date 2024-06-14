@@ -83,13 +83,11 @@ python sample.py --config configs/example.yaml
 If you find this work helpful, please cite the following paper:
 
 ```
-@misc{ling2024motionclone,
-      title={MotionClone: Training-Free Motion Cloning for Controllable Video Generation}, 
-      author={Pengyang Ling and Jiazi Bu and Pan Zhang and Xiaoyi Dong and Yuhang Zang and Tong Wu and Huaian Chen and Jiaqi Wang and Yi Jin},
-      year={2024},
-      eprint={2406.05338},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{ling2024motionclone,
+  title={MotionClone: Training-Free Motion Cloning for Controllable Video Generation},
+  author={Ling, Pengyang and Bu, Jiazi and Zhang, Pan and Dong, Xiaoyi and Zang, Yuhang and Wu, Tong and Chen, Huaian and Wang, Jiaqi and Jin, Yi},
+  journal={arXiv preprint arXiv:2406.05338},
+  year={2024}
 }
 ```
 
