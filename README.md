@@ -41,7 +41,8 @@ We show more results in the [Project Page](https://bujiazi.github.io/motionclone
 
 As illustrated in the framework above, MotionClone comprises two core components in its guidance stage: **Primary Temporal-Attention Guidance** and **Location-Aware Semantic Guidance**, which operate synergistically to provide comprehensive motion and semantic guidance for controllable video generation.
 
-## 🔧 Preparations
+## 🔧 Installations
+
 ### Setup repository and conda environment
 
 ```
@@ -52,12 +53,16 @@ conda env create -f environment.yaml
 conda activate motionclone
 ```
 
+## 🔑 Pretrained Model Preparations
+
 ### Download Stable Diffusion V1.5
 
 ```
 git lfs install
 git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
 ```
+
+After downloading Stable Diffusion, save them to `models/StableDiffusion`. 
 
 ### Prepare Community Models
 
@@ -66,6 +71,7 @@ Manually download the community `.safetensors` models from [RealisticVision V5.1
 ### Prepare AnimateDiff Motion Modules
 
 Manually download the AnimateDiff modules from [AnimateDiff](https://github.com/guoyww/AnimateDiff), we recommend [`v3_adapter_sd_v15.ckpt`](https://huggingface.co/guoyww/animatediff/blob/main/v3_sd15_adapter.ckpt) and [`v3_sd15_mm.ckpt.ckpt`](https://huggingface.co/guoyww/animatediff/blob/main/v3_sd15_mm.ckpt). Save the modules to `models/Motion_Module`.
+
 
 ## 🎈 Quick Start
 
@@ -77,6 +83,7 @@ python invert.py --config configs/example.yaml
 ```
 python sample.py --config configs/example.yaml
 ```
+
 
 ## 📎 Citation 
 
