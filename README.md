@@ -108,3 +108,6 @@ Feel free to contact us if you would like remove them.
 The code is built upon the below repositories, we thank all the contributors for open-sourcing.
 * [AnimateDiff](https://github.com/guoyww/AnimateDiff)
 * [FreeControl](https://github.com/genforce/freecontrol)
+
+## 🌟 Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=Bujiazi/MotionClone&type=Date)](https://star-history.com/#Bujiazi/MotionClone&Date)
