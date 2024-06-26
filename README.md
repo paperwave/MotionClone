@@ -28,7 +28,7 @@ This repository is the official implementation of [MotionClone](https://arxiv.or
 
 ## 🏗️ Todo
 - [ ] Release Gradio demo
-- [ ] Release the MotionClone code (We plan to release the code in about **two weeks**!)
+- [ ] Release the MotionClone code (We plan to release the code **this week**!)
 - [x] Release paper
 
 ## 📚 Gallery
@@ -41,7 +41,7 @@ We show more results in the [Project Page](https://bujiazi.github.io/motionclone
 
 As illustrated in the framework above, MotionClone comprises two core components in its guidance stage: **Primary Temporal-Attention Guidance** and **Location-Aware Semantic Guidance**, which operate synergistically to provide comprehensive motion and semantic guidance for controllable video generation.
 
-## 🔧 Installations
+## 🔧 Installations (python==3.11.3 recommended)
 
 ### Setup repository and conda environment
 
@@ -77,11 +77,11 @@ Manually download the AnimateDiff modules from [AnimateDiff](https://github.com/
 
 ### Perform DDIM Inversion
 ```
-python invert.py --config configs/example.yaml
+python invert.py --config configs/inference_config/example.yaml
 ```
 ### Perform Motion Cloning
 ```
-python sample.py --config configs/example.yaml
+python sample.py --config configs/inference_config/example.yaml
 ```
 
 
